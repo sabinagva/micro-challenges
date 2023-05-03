@@ -45,3 +45,18 @@ function totalYearsOfExperience(totalYear) {
 }
 console.log('total experience of employees are', totalYearsOfExperience(totalYears));
 
+
+function sumOfArrays(arr1,arr2) {
+    
+    for(number of arr1){
+        console.log('number is', number)
+        
+        for(numbers of arr2) {
+            console.log('numbers is', numbers)
+        }  
+        sum += (arr1[arr1.length]) + (arr2[arr2.length])
+    }
+   
+    return sum;  
+    }
+console.log('function sumOfArray is', sumOfArrays([1,2,3,4],[4,5,6,7]));
