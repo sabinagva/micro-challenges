@@ -3,9 +3,7 @@
 Create a function that takes two numbers.
 
 Your function should return the sum of the two numbers passed in.
-function yourFunction(number1,number2) {
-    return number1 + number2;
-}
+
 ## Examples:
 
 ### Example 1

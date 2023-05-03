@@ -1,5 +1,5 @@
 
-function yourFunction(number1,number2) {
+function myFunction(number1,number2) {
     if(number1 > number2) {
         console.log('first number is bigger');
     }
@@ -11,11 +11,15 @@ function yourFunction(number1,number2) {
     }
     return number1 + number2;
 }
-console.log(yourFunction(2,3));
-console.log(yourFunction(2,7));
-console.log(yourFunction(9,7));
+console.log(myFunction(2,3));
+console.log(myFunction(2,7));
+console.log(myFunction(9,7));
 
-// If the first number is bigger than the second number, return `"The first number was bigger!"`.
-// If the second number is bigger than the first number, return `"The second number was bigger!"`.
-// If the numbers are the same, return `"The numbers are the same!"`.
+function arrayFunction(array) {
+    //for actual value to show up make sure to put array name in front of the []
+    return array[0] + (array[array.length - 1]);
+}
+
+console.log('first number plus last number is,',arrayFunction([5,4,3,2,1]));
+console.log('first number plus last number is,',arrayFunction([10,4,3,2,1]));
 
