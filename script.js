@@ -23,3 +23,25 @@ function arrayFunction(array) {
 console.log('first number plus last number is,',arrayFunction([5,4,3,2,1]));
 console.log('first number plus last number is,',arrayFunction([10,4,3,2,1]));
 
+let result = 0;
+function combinedFunction(array,num1) {
+ result = ((array[array.length - 1]) + (array[array.length - 2]));
+ return result.toString
+}
+console.log('CombinedFunction in string form is', combinedFunction([1,2,3,4]));
+
+
+let totalYears = [];
+sum = 0;
+totalYears.push(({ name: "Tony", yearsOfExperience: 10 }));
+totalYears.push(({ name: "Carla", yearsOfExperience: 4 }));
+totalYears.push(({ name: "Kris", yearsOfExperience: 14 }));
+
+function totalYearsOfExperience(totalYear) {
+    for(let year of totalYear) {
+        sum += year.yearsOfExperience;
+    }
+    return sum;
+}
+console.log('total experience of employees are', totalYearsOfExperience(totalYears));
+
